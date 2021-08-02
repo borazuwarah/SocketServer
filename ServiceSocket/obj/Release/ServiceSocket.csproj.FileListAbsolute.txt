@@ -1,0 +1,9 @@
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\bin\Release\ServiceSocket.exe.config
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\bin\Release\ServiceSocket.exe
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\bin\Release\ServiceSocket.pdb
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\obj\Release\ServiceSocket.Form1.resources
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\obj\Release\ServiceSocket.Properties.Resources.resources
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\obj\Release\ServiceSocket.csproj.GenerateResource.cache
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\obj\Release\ServiceSocket.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\obj\Release\ServiceSocket.exe
+C:\Users\Pablo\source\repos\ServiceSocket\ServiceSocket\obj\Release\ServiceSocket.pdb
