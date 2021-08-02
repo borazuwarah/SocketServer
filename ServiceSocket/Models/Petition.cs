@@ -16,6 +16,5 @@ namespace ServiceSocket.Models
         public int countNumbers { get; set; }
         public Boolean haveUpper { get; set; }
         public Boolean haveNumbers { get; set; }
-        public List<int> numberList { get; set; }
     }
 }

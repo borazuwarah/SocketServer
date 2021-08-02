@@ -95,9 +95,9 @@ namespace ServiceSocket
                     countTotalUpper ++;
             }
             
-            string algo = string.Join("", message.ToCharArray().Where(Char.IsDigit));
-            algo = sortString(algo);
-
+            string numbers = string.Join("", message.ToCharArray().Where(Char.IsDigit));
+            numbers = sortString(numbers);
+            
             auxPetition.countUpper = countTotalUpper;
             auxPetition.countNumbers = auxPetition.numberList.Count;
             string numbertext = string.Empty;
@@ -109,7 +109,7 @@ namespace ServiceSocket
             this.Invoke(new Action(() => this.lbrHaveCapitalLetter.Visible = true));
             this.Invoke(new Action(() => this.lbrLength.Text = auxPetition.totalCaracteres.ToString()));
             this.Invoke(new Action(() => this.lbrLength.Visible = true));
-            this.Invoke(new Action(() => this.lbrListSortNumber.Text = algo));
+            this.Invoke(new Action(() => this.lbrListSortNumber.Text = numbers));
             this.Invoke(new Action(() => this.lbrListSortNumber.Visible = true));
             this.Invoke(new Action(() => this.lbrSecondChar.Text = auxPetition.secondCharter.ToString()));
             this.Invoke(new Action(() => this.lbrSecondChar.Visible = true));
@@ -117,7 +117,7 @@ namespace ServiceSocket
             this.Invoke(new Action(() => this.lbrTime.Visible = true));
             this.Invoke(new Action(() => this.lbrTotalCapitalLetter.Text = auxPetition.countUpper.ToString()));
             this.Invoke(new Action(() => this.lbrTotalCapitalLetter.Visible = true));
-            this.Invoke(new Action(() => this.lbrTotalNumbers.Text = algo.Length.ToString()));
+            this.Invoke(new Action(() => this.lbrTotalNumbers.Text = numbers.Length.ToString()));
             this.Invoke(new Action(() => this.lbrTotalNumbers.Visible = true));
 
 
